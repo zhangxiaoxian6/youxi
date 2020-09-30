@@ -1,0 +1,14 @@
+{
+    "name": "a/youxi",
+    "description": "youxi",
+    "license": "mit",
+    "require": {},
+    "autoload" : {
+        "files": [
+            "src/helper.php"
+        ],
+        "psr-4":{
+            "A\\App\\":"src"
+        }
+    }
+}
